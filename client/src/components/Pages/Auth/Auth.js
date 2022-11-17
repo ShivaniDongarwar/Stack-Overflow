@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import icon from "../../../assetes/assets/LogoGlyphMd.svg";
+import icon from "../../../assetes/assets/icon.png";
 import AboutAuth from "./AboutAuth";
 import "./Auth.css";
 

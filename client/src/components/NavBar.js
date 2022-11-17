@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assetes/assets/LogoMd.svg";
-import search from "../assetes/assets/Search.svg";
+import logo from "../assetes/assets/logo.png";
+import search from "../assetes/assets/search-solid.svg";
 import Avatar from "./Avatar/Avatar";
 import "./NavBar.css";
 function NavBar() {

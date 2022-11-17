@@ -5,13 +5,13 @@ import LeftSideBar from "../../LeftSideBar/LeftSideBar";
 import HomeSideBar from "../../HomeSideBar/HomeSideBar";
 function Home() {
   return (
-    <div className="home-container-1">
-      <RightSideBar />
-      <div className="home-container-2">
+    <div className='home-container-1'>
+    <LeftSideBar />
+    <div className='home-container-2'>
         <HomeSideBar />
-        <LeftSideBar />
-      </div>
+        <RightSideBar />
     </div>
+</div>
   );
 }
 

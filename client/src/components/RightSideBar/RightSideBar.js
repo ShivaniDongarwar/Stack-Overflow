@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from 'react';
+import Widget from './Widget';
+import WidgetTags from './WidgetTags';
+import './RightSideBar.css';
 function RightSideBar() {
   return (
-    <div>RightSideBar</div>
-  )
+<aside className='right-sidebar'>
+  <Widget />
+  <WidgetTags />
+</aside>  )
 }
 
 export default RightSideBar
